@@ -1,0 +1,15 @@
+# Node
+node_modules/
+.env
+
+# Build
+client/dist/
+client/.vite/
+server/.cache/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
