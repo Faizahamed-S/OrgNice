@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowJs": true,                       // ✅ Allow JavaScript files
+    "checkJs": false,                      // ✅ Don't type-check JS files (optional)
+    "noEmit": true                         // ✅ Don’t generate .js files from .ts
+  },
+  "include": ["src/**/*"],                // ✅ Scan only your app source files
+  "exclude": ["node_modules", "dist"]     // ✅ Avoid build + dependency folders
+}
