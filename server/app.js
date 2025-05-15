@@ -25,6 +25,13 @@ app.get('/test-email', async (req, res) => {
   }
 });
 
+const cors = require('cors');
+app.use(cors({
+  origin: 'http://localhost:8081', // frontend port
+  credentials: true
+}));
+
+
 app.use('/api/auth', authRoutes);
 
 
